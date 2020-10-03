@@ -3,4 +3,4 @@ project(githubRepo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(githubRepo main.cpp)
+add_executable(githubRepo main.cpp Particle.h Particle.cpp)

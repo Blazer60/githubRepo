@@ -127,6 +127,33 @@ githubRepo\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\githubRepo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\githubRepo.dir\build
 .PHONY : githubRepo\fast
 
+Particle.obj: Particle.cpp.obj
+
+.PHONY : Particle.obj
+
+# target to build an object file
+Particle.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\githubRepo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\githubRepo.dir\Particle.cpp.obj
+.PHONY : Particle.cpp.obj
+
+Particle.i: Particle.cpp.i
+
+.PHONY : Particle.i
+
+# target to preprocess a source file
+Particle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\githubRepo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\githubRepo.dir\Particle.cpp.i
+.PHONY : Particle.cpp.i
+
+Particle.s: Particle.cpp.s
+
+.PHONY : Particle.s
+
+# target to generate assembly for a file
+Particle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\githubRepo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\githubRepo.dir\Particle.cpp.s
+.PHONY : Particle.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -163,6 +190,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... githubRepo
+	@echo ... Particle.obj
+	@echo ... Particle.i
+	@echo ... Particle.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

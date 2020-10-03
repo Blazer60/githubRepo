@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/C++/Projects/githubRepo/Particle.cpp">
+			<Option target="githubRepo"/>
+		</Unit>
+		<Unit filename="E:/C++/Projects/githubRepo/Particle.h">
+			<Option target="githubRepo"/>
+		</Unit>
 		<Unit filename="E:/C++/Projects/githubRepo/main.cpp">
 			<Option target="githubRepo"/>
 		</Unit>
