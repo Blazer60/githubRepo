@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/githubRepo.dir/Particle.cpp.obj"
   "CMakeFiles/githubRepo.dir/main.cpp.obj"
   "githubRepo.exe"
   "githubRepo.exe.manifest"

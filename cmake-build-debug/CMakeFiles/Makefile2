@@ -78,12 +78,12 @@ clean: CMakeFiles\githubRepo.dir\clean
 CMakeFiles\githubRepo.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\githubRepo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\githubRepo.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\githubRepo.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\githubRepo.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C++\Projects\githubRepo\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target githubRepo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\C++\Projects\githubRepo\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target githubRepo"
 .PHONY : CMakeFiles\githubRepo.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\githubRepo.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\C++\Projects\githubRepo\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\C++\Projects\githubRepo\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\githubRepo.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\C++\Projects\githubRepo\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles\githubRepo.dir\rule
